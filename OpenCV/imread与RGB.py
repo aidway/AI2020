@@ -16,8 +16,11 @@ img = cv2.imread("./imgs/test2-1.png")[:,:,[2,1,0]]
 plt.imshow(img)
 
 
-# 3. 其它
+# 3. 官方手段
 img = cv2.imread("./imgs/test2-1.png")[...,::-1]
 plt.imshow(img)
+
+# 4. 如果原图是灰度图
+plt.imshow(img, cmap=plt.cm.gray)
 
 ```
