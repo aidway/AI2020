@@ -12,7 +12,7 @@
 # 问题
 
 执行ocr合同清单检测脚本时，报Segmentation fault，见下图：
-![d](E:\\git\\AI2020\\problem\\OCR_Segmentation_fault\\Segmentation.png)
+![d](.\\imgs\\Segmentation.png)
 
 ![d](E:\\git\\AI2020\\problem\\OCR_Segmentation_fault\\core_file.png)
 
